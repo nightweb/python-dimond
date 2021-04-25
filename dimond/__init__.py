@@ -19,7 +19,7 @@ import random
 import threading
 import time
 
-from bluepy import btle
+from bluepy_mjg59 import btle
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 

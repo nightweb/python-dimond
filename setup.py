@@ -28,8 +28,8 @@ setup(
     name='dimond',
     version=version,
     author='Matthew Garrett',
-    author_email='mjg59@google.com',
-    url='http://github.com/google/python-dimond',
+    author_email='mjg59@srcf.ucam.org',
+    url='http://github.com/mjg59/python-dimond',
     packages=find_packages(),
     scripts=[],
     description='Python implementation of Telink Bluetooth mesh network',
@@ -41,8 +41,11 @@ setup(
         'Programming Language :: Python',
     ],
     install_requires=[
-        "bluepy",
+        "bluepy_mjg59 @ git+https://github.com/mjg59/bluepy@local_version#egg=bluepy_mjg59",
         "pycryptodome",
+    ],
+    dependency_links = [
+        "git+https://github.com/mjg59/bluepy@local_version#egg=bluepy_mjg59",
     ],
     include_package_data=True,
     zip_safe=False,
