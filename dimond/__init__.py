@@ -142,7 +142,7 @@ class dimond:
   def wait_for_notifications(self):
       while True:
           try:
-            self.device.waitForNotifications(-1)
+            self.device.waitForNotifications(timeout=None)
           except btle.BTLEInternalError:
             # If we get the response to a write then we'll break
             pass
