@@ -3,8 +3,6 @@ Python implementation of Telink Bluetooth mesh protocol
 
 A simple Python API for controlling devices based on the Bluetooth LE mesh protocol from [Telink](http://www.telink-semi.com).
 
-This is not an officially supported Google product.
-
 Example use
 -----------
 
