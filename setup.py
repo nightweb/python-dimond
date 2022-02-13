@@ -41,12 +41,12 @@ setup(
         'Programming Language :: Python',
     ],
     install_requires=[
-        "bluepy_mjg59 @ git+https://github.com/mjg59/bluepy@local_version#egg=bluepy_mjg59",
+        # "bluepy_mjg59 @ git+https://github.com/mjg59/bluepy@local_version#egg=bluepy_mjg59",
         "pycryptodome",
     ],
-    dependency_links = [
-        "git+https://github.com/mjg59/bluepy@local_version#egg=bluepy_mjg59",
-    ],
+    # dependency_links = [
+    #     "git+https://github.com/mjg59/bluepy@local_version#egg=bluepy_mjg59",
+    # ],
     include_package_data=True,
     zip_safe=False,
 )
